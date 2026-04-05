@@ -20,8 +20,9 @@ The model takes raw input such as:
 * Framework: Unsloth
 * Task: Structured lead qualification (classification + extraction)
 
+## To use the Adapter
  Hugging Face Link:
-[https://huggingface.co/SRafi007/qwen3.5-0.8b-lora-lead-qualifier]([https://huggingface.co/YOUR-USERNAME/YOUR-MODEL](https://huggingface.co/SRafi007/qwen3.5-0.8b-lora-lead-qualifier))
+<https://huggingface.co/SRafi007/qwen3.5-0.8b-lora-lead-qualifier>
 
 ---
 
