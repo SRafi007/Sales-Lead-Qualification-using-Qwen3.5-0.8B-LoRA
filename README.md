@@ -1,5 +1,5 @@
 
-# AI Sales Lead Qualification (Qwen3.5-0.8B + LoRA)
+# Sales Lead Qualification (Qwen3.5-0.8B + LoRA)
 
 A lightweight AI system that converts unstructured B2B sales messages into structured lead intelligence using a fine-tuned LLM.
 
@@ -7,24 +7,9 @@ A lightweight AI system that converts unstructured B2B sales messages into struc
 
 ##  Overview
 
-This project demonstrates how a small language model like Qwen3.5-0.8B can be fine-tuned using LoRA to perform structured information extraction for sales workflows.
+This  demonstrates a small language model like Qwen3.5-0.8B can be fine-tuned using LoRA to perform structured information extraction for sales workflows.
 
 The model takes raw input such as:
-
-> "We need a demo for 200 users ASAP"
-
-And converts it into:
-
-```json
-{
-  "authority_level": "decision_maker",
-  "budget_range": "high",
-  "intent": "demo_request",
-  "lead_type": "enterprise",
-  "recommended_action": "Schedule executive demo within 24 hours",
-  "urgency": "high"
-}
-````
 
 ---
 
@@ -68,20 +53,6 @@ And converts it into:
 ![Screenshot](https://github.com/SRafi007/Sales-Lead-Qualification-using-Qwen3.5-0.8B-LoRA-/blob/main/gradio_ui_ss.png?raw=true)---
 
 ## Usage
-
-### Install dependencies
-
-```bash
-!pip install unsloth
-!pip install --no-deps transformers accelerate peft bitsandbytes datasets
-```
-
----
-
-### Run the app
-
----
-
 ### Example input
 
 ```
@@ -107,7 +78,7 @@ We are a startup exploring pricing and Slack integration.
 
 ##  Limitations
 
-* Small dataset → risk of overfitting
+* Small dataset 
 * Output may not always be perfectly valid JSON
 * Needs more real-world noisy data for robustness
 
