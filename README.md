@@ -65,8 +65,7 @@ And converts it into:
 
 ##  Demo
 
-https://github.com/SRafi007/Sales-Lead-Qualification-using-Qwen3.5-0.8B-LoRA-/blob/main/gradio_ui_ss.png?raw=true
----
+![Screenshot](https://github.com/SRafi007/Sales-Lead-Qualification-using-Qwen3.5-0.8B-LoRA-/blob/main/gradio_ui_ss.png?raw=true)---
 
 ## Usage
 
